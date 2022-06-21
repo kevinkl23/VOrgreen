@@ -55,13 +55,6 @@ nav ul li a:hover{
     flex-direction: row;
 }
 
-/* .aboutuspic img{
-    width: 600px;
-    height: 700px;
-    margin: 50px;
-    border-radius: 5px;
-} */
-
 .text{
     display: flex;
     flex-direction: column;
@@ -564,8 +557,8 @@ footer
     }
 
     .aboutuspic img{
-        width: 200px;
-        height: 400px;
+        width: 100px;
+        height: 200px;
         margin-right: 10px;
     }
 
