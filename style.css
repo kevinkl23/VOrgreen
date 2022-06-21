@@ -55,17 +55,18 @@ nav ul li a:hover{
     flex-direction: row;
 }
 
-.box{
+.aboutuspic img{
     width: 600px;
     height: 700px;
-    background-color: gray;
     margin: 50px;
+    border-radius: 5px;
 }
 
 .text{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    text-align: center;
 }
 
 .whoarewe{
@@ -78,16 +79,33 @@ nav ul li a:hover{
     margin-bottom: 20px;
 }
 
+.ourfounder{
+    display: flex;
+    flex-direction: column;
+}
+
 .ourfounder h1{
     color: transparent;
     -webkit-text-stroke: 2px black;
     margin-bottom: 20px;
 }
 
-.ourfounderbox{
-    width: 300px;
-    height: 200px;
+.founders{
+    display: flex;
+    flex-direction: row;
+}
+
+.founder{
+    display: flex;
+    flex-direction: column;
+}
+
+.founders img{
+    width: 275px;
+    height: 300px;
     background-color: gray;
+    margin: 30px;
+    border-radius: 5px;
 }
 
 .ourvenues{
@@ -256,7 +274,7 @@ nav ul li a:hover{
 .menu img{
     width: 200px;
     height: 175px;
-    margin: 30px;
+    margin: 20px;
     margin-bottom: 10px;
     border-radius: 5px;
 }
@@ -405,7 +423,6 @@ input, textarea{
     padding: 5px;
     color: black;
     cursor: text;
-    transition: 0.3s;
 }
 
 form button{
@@ -441,6 +458,11 @@ form button:hover{
     background-color: transparent;
     border-radius: 5px;
     border: 2px solid white;
+    color: black;
+}
+
+.socialmedia button a{
+    text-decoration: none;
     color: black;
 }
 
@@ -497,6 +519,11 @@ footer
         background-color: white;
     }
 
+    .branches{
+        display: flex;
+        flex-direction: column;
+    }
+
     .branchtitle h1{
         font-size: 20px;
         margin-bottom: 10px;
@@ -525,5 +552,59 @@ footer
         border-radius: 10px;
         border: 2px solid white;
         color: black;
+    }
+
+    .aboutuscontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .branch h2{
+        font-size: 16px;
+    }
+
+    .aboutuspic img{
+        width: 200px;
+        height: 400px;
+        margin-right: 10px;
+    }
+
+    .text{
+        font-size: 10px;
+    }
+
+    .founder img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .contactustitle h1{
+        font-size: 30px;
+    }
+
+    .contactform label{
+        font-size: 10px;
+    }
+
+    form button{
+        width: 100px;
+    }
+
+    input, textarea{
+        width: 300px;
+    }
+
+    .titleline{
+        width: 250px;
+    }
+
+    .contactuscontent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactusline{
+        width: 0px;
+        height: 0px;
     }
 }
